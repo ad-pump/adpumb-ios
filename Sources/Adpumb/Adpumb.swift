@@ -1,6 +1,6 @@
 public class Adpumb {
 
-    public func initLib() -> String{
-        return "initializing adpumb library, please wait.."
+    public func initLib(){
+        print( "initializing adpumb library, please wait..")
     }
 }
