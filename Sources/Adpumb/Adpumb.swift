@@ -1,6 +1,7 @@
-public class Adpumb {
+import Foundation
 
-    public func initLib(){
-        print( "initializing adpumb library, please wait..")
+public struct Adpumb{
+    public static func startLib(){
+        print("adpumb getting ready..")
     }
 }
