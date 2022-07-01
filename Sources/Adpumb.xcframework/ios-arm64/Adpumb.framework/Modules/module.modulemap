@@ -1,0 +1,6 @@
+framework module Adpumb {
+  umbrella header "Adpumb.h"
+
+  export *
+  module * { export * }
+}
