@@ -27,9 +27,6 @@ public class AdDisplayManager {
   public static func getPresenter() -> UIKit.UIViewController
   @objc deinit
 }
-public struct Adpumb {
-  public static func startLib()
-}
 public protocol MediatioionDelegate {
   func onMediationInitialized()
   func onMedatioinFailed(error: Swift.String)
