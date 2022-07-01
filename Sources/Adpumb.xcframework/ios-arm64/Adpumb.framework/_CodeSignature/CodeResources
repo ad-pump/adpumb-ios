@@ -26,7 +26,7 @@
 		</data>
 		<key>Frameworks/GoogleMobileAds.framework/_CodeSignature/CodeSignature</key>
 		<data>
-		4jlVjSTElWKZW5Ayyig5euvaXiQ=
+		6yar4Dv+B4sfJqalMnRaqja1rFc=
 		</data>
 		<key>Headers/Adpumb-Swift.h</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/Adpumb.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		NCFJ/MQ2ZRgy/0/Rnm7IdyAJPs0=
+		28b7Qvqju1K6i+mMppcu3BoZmKw=
 		</data>
 		<key>Modules/Adpumb.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ybRXuNqEQnu2y7aTcVcHdEPqp0c=
+		lzgSk3UUd3VWXzEF64aLTDjV3l8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -98,7 +98,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PlAtii2mX8qqRjh5jngwdWyNLbTEaKDRfRi/RgS7GOM=
+			O4Mnd09BHjCAo4DOJD3buFJ+wAFtXXAzpInCnHe8+KY=
 			</data>
 		</dict>
 		<key>Headers/Adpumb-Swift.h</key>
@@ -126,14 +126,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			za+Gkyae6V0rvtoPbn0he4KWEh7NxFwia6tRnygok04=
+			NfM4eIEbqw0Tn4UPBcVZRnsPZ+3JF8Aro6Gt7M8L1OE=
 			</data>
 		</dict>
 		<key>Modules/Adpumb.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TZmHgYnguzCLrfjPHgMn10dkX2v8MZCZReg4aldYzgo=
+			MBbGvy3lqUCKlBvS8hfAUr3JLqW5aEG2wFSvp5IrkRo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
