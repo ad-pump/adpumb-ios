@@ -4,38 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/FBAudienceNetwork.framework/FBAudienceNetwork</key>
-		<data>
-		Eyq/BB7qXBDNWHzkrS8/QaOdoyg=
-		</data>
-		<key>Frameworks/FBAudienceNetwork.framework/Info.plist</key>
-		<data>
-		DFvl55O53vfxo0ZxV2dsLXVtPCc=
-		</data>
-		<key>Frameworks/FBAudienceNetwork.framework/PkgInfo</key>
-		<data>
-		cBYDa3QyibPnSPDvyuw5uDs0LWg=
-		</data>
-		<key>Frameworks/FBAudienceNetwork.framework/_CodeSignature/CodeDirectory</key>
-		<data>
-		eNTjQF9d02ZpX7hffFP4VGSgZNA=
-		</data>
-		<key>Frameworks/FBAudienceNetwork.framework/_CodeSignature/CodeRequirements</key>
-		<data>
-		OnX22wWFKRSOFN1+obRynMCeyXM=
-		</data>
-		<key>Frameworks/FBAudienceNetwork.framework/_CodeSignature/CodeRequirements-1</key>
-		<data>
-		BLZwaPIZ0ED9/s6h1soQPArlkKw=
-		</data>
-		<key>Frameworks/FBAudienceNetwork.framework/_CodeSignature/CodeResources</key>
-		<data>
-		VxfYkwAwWObcqOaOcYRTJz+gycI=
-		</data>
-		<key>Frameworks/FBAudienceNetwork.framework/_CodeSignature/CodeSignature</key>
-		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
-		</data>
 		<key>Frameworks/GoogleMobileAds.framework/GoogleMobileAds</key>
 		<data>
 		jXiNhSCxzepAvkEaDJwPpI14YKs=
@@ -103,62 +71,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/FBAudienceNetwork.framework/FBAudienceNetwork</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			1CeVNxT3YgPvmR60VTfr9LHqtO+fqMV7VzfmvXPdneE=
-			</data>
-		</dict>
-		<key>Frameworks/FBAudienceNetwork.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AqmohcjcpZj65GGm4o0lfJbGTabXjbvcTGpwWmKFUEI=
-			</data>
-		</dict>
-		<key>Frameworks/FBAudienceNetwork.framework/PkgInfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			KIPJdhuYpCHG8dugfGO+DAsGwnleS5hpIX6yXzPrQuk=
-			</data>
-		</dict>
-		<key>Frameworks/FBAudienceNetwork.framework/_CodeSignature/CodeDirectory</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			I5jdGHS8wXmFPFGLxiz6oU1adnqJK88D0VRHbyh+o3s=
-			</data>
-		</dict>
-		<key>Frameworks/FBAudienceNetwork.framework/_CodeSignature/CodeRequirements</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
-			</data>
-		</dict>
-		<key>Frameworks/FBAudienceNetwork.framework/_CodeSignature/CodeRequirements-1</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			PryuSYtOMDi1ZoKccpX/X3laZDw+viO5fqDCwSMKgs8=
-			</data>
-		</dict>
-		<key>Frameworks/FBAudienceNetwork.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			SfEH5jxVgQFxq/UeH9oFsLeaw9WK2vGmNXCQuBbFT6E=
-			</data>
-		</dict>
-		<key>Frameworks/FBAudienceNetwork.framework/_CodeSignature/CodeSignature</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
-			</data>
-		</dict>
 		<key>Frameworks/GoogleMobileAds.framework/GoogleMobileAds</key>
 		<dict>
 			<key>hash2</key>
