@@ -4,6 +4,22 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/FBAudienceNetwork.framework/FBAudienceNetwork</key>
+		<data>
+		pmwN533vm3fOtCCmQ20YIQwtA/c=
+		</data>
+		<key>Frameworks/FBAudienceNetwork.framework/Info.plist</key>
+		<data>
+		DFvl55O53vfxo0ZxV2dsLXVtPCc=
+		</data>
+		<key>Frameworks/FBAudienceNetwork.framework/PkgInfo</key>
+		<data>
+		cBYDa3QyibPnSPDvyuw5uDs0LWg=
+		</data>
+		<key>Frameworks/FBAudienceNetwork.framework/_CodeSignature/CodeResources</key>
+		<data>
+		VxfYkwAwWObcqOaOcYRTJz+gycI=
+		</data>
 		<key>Frameworks/GoogleMobileAds.framework/GoogleMobileAds</key>
 		<data>
 		dRjgvRbadwk9MnEcGb8HbecukAg=
@@ -26,7 +42,7 @@
 		</data>
 		<key>Frameworks/GoogleMobileAds.framework/_CodeSignature/CodeSignature</key>
 		<data>
-		1BtiCABkV8FrirqPXNyQgWJDLNM=
+		WZ5BfaAHazrUIzvDOHqmQe+vopU=
 		</data>
 		<key>Headers/Adpumb-Swift.h</key>
 		<data>
@@ -59,6 +75,34 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/FBAudienceNetwork.framework/FBAudienceNetwork</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			M0W3S5JzgtLDKM8854wwYQzuRLyFSBuc3uDuD37PF+c=
+			</data>
+		</dict>
+		<key>Frameworks/FBAudienceNetwork.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AqmohcjcpZj65GGm4o0lfJbGTabXjbvcTGpwWmKFUEI=
+			</data>
+		</dict>
+		<key>Frameworks/FBAudienceNetwork.framework/PkgInfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KIPJdhuYpCHG8dugfGO+DAsGwnleS5hpIX6yXzPrQuk=
+			</data>
+		</dict>
+		<key>Frameworks/FBAudienceNetwork.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SfEH5jxVgQFxq/UeH9oFsLeaw9WK2vGmNXCQuBbFT6E=
+			</data>
+		</dict>
 		<key>Frameworks/GoogleMobileAds.framework/GoogleMobileAds</key>
 		<dict>
 			<key>hash2</key>
@@ -98,7 +142,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zrdX0g3v9HftxsbFZHJ538gZpp9wwEfL6W7d1LJj0GU=
+			+q1LdgiJDsC3b1oX0bp6T7vai2biO6q+H6BcgxC/yT8=
 			</data>
 		</dict>
 		<key>Headers/Adpumb-Swift.h</key>
