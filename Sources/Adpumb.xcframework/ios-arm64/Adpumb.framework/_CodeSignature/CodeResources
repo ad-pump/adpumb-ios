@@ -6,7 +6,7 @@
 	<dict>
 		<key>Frameworks/FBAudienceNetwork.framework/FBAudienceNetwork</key>
 		<data>
-		pmwN533vm3fOtCCmQ20YIQwtA/c=
+		a64BgTeydlueggwoF2F/rc9zPAo=
 		</data>
 		<key>Frameworks/FBAudienceNetwork.framework/Info.plist</key>
 		<data>
@@ -16,9 +16,25 @@
 		<data>
 		cBYDa3QyibPnSPDvyuw5uDs0LWg=
 		</data>
+		<key>Frameworks/FBAudienceNetwork.framework/_CodeSignature/CodeDirectory</key>
+		<data>
+		pDhraSAXx6JrcDFulvCq2B9GYos=
+		</data>
+		<key>Frameworks/FBAudienceNetwork.framework/_CodeSignature/CodeRequirements</key>
+		<data>
+		h+FLgNdg7n4oiFC76+g/TBs7TUA=
+		</data>
+		<key>Frameworks/FBAudienceNetwork.framework/_CodeSignature/CodeRequirements-1</key>
+		<data>
+		1dYnDXRfavLKd3XaKJi9JYLGuG0=
+		</data>
 		<key>Frameworks/FBAudienceNetwork.framework/_CodeSignature/CodeResources</key>
 		<data>
 		VxfYkwAwWObcqOaOcYRTJz+gycI=
+		</data>
+		<key>Frameworks/FBAudienceNetwork.framework/_CodeSignature/CodeSignature</key>
+		<data>
+		1ARRH9mu4CZ3nMhiBH2p8PPKbNM=
 		</data>
 		<key>Frameworks/GoogleMobileAds.framework/GoogleMobileAds</key>
 		<data>
@@ -42,7 +58,7 @@
 		</data>
 		<key>Frameworks/GoogleMobileAds.framework/_CodeSignature/CodeSignature</key>
 		<data>
-		WZ5BfaAHazrUIzvDOHqmQe+vopU=
+		3JtSgUhbXcj+YdUW+LuxJ78dsvI=
 		</data>
 		<key>Headers/Adpumb-Swift.h</key>
 		<data>
@@ -79,7 +95,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			M0W3S5JzgtLDKM8854wwYQzuRLyFSBuc3uDuD37PF+c=
+			c/GCKP8Qo2BXsybPaHXyGOZrbHRLtMB/UPyymhcKn9g=
 			</data>
 		</dict>
 		<key>Frameworks/FBAudienceNetwork.framework/Info.plist</key>
@@ -96,11 +112,39 @@
 			KIPJdhuYpCHG8dugfGO+DAsGwnleS5hpIX6yXzPrQuk=
 			</data>
 		</dict>
+		<key>Frameworks/FBAudienceNetwork.framework/_CodeSignature/CodeDirectory</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qF3lPEfCvxE2KMnb3Lyvx0C6d/Dd10jJrqwBPrz1Zp4=
+			</data>
+		</dict>
+		<key>Frameworks/FBAudienceNetwork.framework/_CodeSignature/CodeRequirements</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TBx8l5qLkJz7IozsfWyuY51kSfvNGszQn+ApUZZmIZE=
+			</data>
+		</dict>
+		<key>Frameworks/FBAudienceNetwork.framework/_CodeSignature/CodeRequirements-1</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			B1eDFFaI6VrROVtx5J1RSP9nXXDl6rfZH+Kaew5Ky3E=
+			</data>
+		</dict>
 		<key>Frameworks/FBAudienceNetwork.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			SfEH5jxVgQFxq/UeH9oFsLeaw9WK2vGmNXCQuBbFT6E=
+			</data>
+		</dict>
+		<key>Frameworks/FBAudienceNetwork.framework/_CodeSignature/CodeSignature</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FLJhOqiWn6MpXKVlK7X5pPXHaRxjV9ZOuIE+6CWEldE=
 			</data>
 		</dict>
 		<key>Frameworks/GoogleMobileAds.framework/GoogleMobileAds</key>
@@ -142,7 +186,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+q1LdgiJDsC3b1oX0bp6T7vai2biO6q+H6BcgxC/yT8=
+			7Psd5wFBrdSxHuRN9YI15DaJ2HNa4HsuvljEtNOGI90=
 			</data>
 		</dict>
 		<key>Headers/Adpumb-Swift.h</key>
