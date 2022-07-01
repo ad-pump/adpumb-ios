@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/Adpumb-Swift.h</key>
+		<data>
+		rCNTpCUF7+Z1A8URJWRFzxF+AmE=
+		</data>
 		<key>Headers/Adpumb.h</key>
 		<data>
 		/zu8sF2286z8fP6QDL23mCxzXvo=
@@ -12,13 +16,44 @@
 		<data>
 		8uRjOsAXSPBNeUbg8DlNK4W+nNk=
 		</data>
+		<key>Modules/Adpumb.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		ZI0jPAaRkoFgv6HpX3x0r4+Q/oQ=
+		</data>
+		<key>Modules/Adpumb.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		yWFHNswstBqkeBJZ7DzZWzRgugA=
+		</data>
+		<key>Modules/Adpumb.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		0ftYKXiYJdxWpiCR8bpSYbBIG5Y=
+		</data>
+		<key>Modules/Adpumb.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		liBG/Sbp9Owo4ky5xFT/01HNE4s=
+		</data>
+		<key>Modules/Adpumb.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		4fhngHObhEl/cbVeE2jUgc3JYtk=
+		</data>
+		<key>Modules/Adpumb.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		uNjySTafk9uTAdonUVJJnFzIDDc=
+		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		AKpsSQM+HDuuLZSFtBK5ITc5FNA=
+		G3bU78DzJoBsaGRwLW00gxS3jR0=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/Adpumb-Swift.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			A46Ii7DECJYsbn9fylddYxPYW+mVifCyqVgCO+mbh5o=
+			</data>
+		</dict>
 		<key>Headers/Adpumb.h</key>
 		<dict>
 			<key>hash2</key>
@@ -26,11 +61,53 @@
 			skvNhe+FkyOXveAB8EP7ddgowiougDdZdADAKiOAdxw=
 			</data>
 		</dict>
+		<key>Modules/Adpumb.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QZc+8pUznLg2UB/XyzAgqDt1Fr0u4cHIibZ9q+hnYm4=
+			</data>
+		</dict>
+		<key>Modules/Adpumb.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cve95meCPyBuKtPNiF8eRVJD1UC6olGC0mPLh1uMz6o=
+			</data>
+		</dict>
+		<key>Modules/Adpumb.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nYXZBg3sXDGfxJFFvBS2XIKxZa6qN/9QugjxdbUlbGk=
+			</data>
+		</dict>
+		<key>Modules/Adpumb.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			i8tAWX6rCgbTun7mB9f+H8nJZW3dSTCVzBxjkJlWXBk=
+			</data>
+		</dict>
+		<key>Modules/Adpumb.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			U1ExEDnyvi19aX9Seq5kg63ZHs1/2hyDkWI1Ly234jA=
+			</data>
+		</dict>
+		<key>Modules/Adpumb.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			J9WG1Dun3om4AK3u2Darm/a+L4XSvlMWCjnSOmIJ2eU=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			E9da/NORhihtJLePh2JJqSHyVjgotKAXR0Kc3Jfzid8=
+			5aTNDsBKoeGrQ8j4hGYFi+ULgQvNc6qQ02rqhS/HxAg=
 			</data>
 		</dict>
 	</dict>

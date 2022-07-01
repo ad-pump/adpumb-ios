@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/Adpumb-Swift.h</key>
+		<data>
+		jOCPg0lR+a6B3JoVIOTBQjBqhQY=
+		</data>
 		<key>Headers/Adpumb.h</key>
 		<data>
 		/zu8sF2286z8fP6QDL23mCxzXvo=
@@ -12,13 +16,32 @@
 		<data>
 		GzXwHKxkfyP59dey2kEKZ30p7yc=
 		</data>
+		<key>Modules/Adpumb.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<data>
+		hJzuq24zAvlxcQ6tbXRW6t8ycis=
+		</data>
+		<key>Modules/Adpumb.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<data>
+		YN69h/rrNvvrpiXA3XbEYxQLxy0=
+		</data>
+		<key>Modules/Adpumb.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<data>
+		w4Y9Es0LOlsao8rkrieqTAXgd0U=
+		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		AKpsSQM+HDuuLZSFtBK5ITc5FNA=
+		G3bU78DzJoBsaGRwLW00gxS3jR0=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/Adpumb-Swift.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FZE7DMlQbPGRqNZBtXbFxTZORuDH7GK+yVRaO3eJh6g=
+			</data>
+		</dict>
 		<key>Headers/Adpumb.h</key>
 		<dict>
 			<key>hash2</key>
@@ -26,11 +49,32 @@
 			skvNhe+FkyOXveAB8EP7ddgowiougDdZdADAKiOAdxw=
 			</data>
 		</dict>
+		<key>Modules/Adpumb.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ngmNlVHLqRJOMitMYnHIPdvFG0qB/GH0flbtb/UfC4k=
+			</data>
+		</dict>
+		<key>Modules/Adpumb.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pPLfkEt5/AILVd51lw2kw0FiwcfBpRtpmrArRKjdq4Y=
+			</data>
+		</dict>
+		<key>Modules/Adpumb.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TX4k6Wh2EROjo4IgSSp4crz/O5rauy90wmNU2bR64Tk=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			E9da/NORhihtJLePh2JJqSHyVjgotKAXR0Kc3Jfzid8=
+			5aTNDsBKoeGrQ8j4hGYFi+ULgQvNc6qQ02rqhS/HxAg=
 			</data>
 		</dict>
 	</dict>
