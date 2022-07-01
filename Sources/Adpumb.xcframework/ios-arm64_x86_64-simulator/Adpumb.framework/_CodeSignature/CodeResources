@@ -4,6 +4,30 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/GoogleMobileAds.framework/GoogleMobileAds</key>
+		<data>
+		jXiNhSCxzepAvkEaDJwPpI14YKs=
+		</data>
+		<key>Frameworks/GoogleMobileAds.framework/_CodeSignature/CodeDirectory</key>
+		<data>
+		INzYn3PndEJpGcMD8BrmUYRUF9U=
+		</data>
+		<key>Frameworks/GoogleMobileAds.framework/_CodeSignature/CodeRequirements</key>
+		<data>
+		OnX22wWFKRSOFN1+obRynMCeyXM=
+		</data>
+		<key>Frameworks/GoogleMobileAds.framework/_CodeSignature/CodeRequirements-1</key>
+		<data>
+		kGoWOPsMMCLNWc9F5vTL4jbyc44=
+		</data>
+		<key>Frameworks/GoogleMobileAds.framework/_CodeSignature/CodeResources</key>
+		<data>
+		HK2c3QmhpcYSZRgkvpUe5YHi6gA=
+		</data>
+		<key>Frameworks/GoogleMobileAds.framework/_CodeSignature/CodeSignature</key>
+		<data>
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		</data>
 		<key>Headers/Adpumb-Swift.h</key>
 		<data>
 		rCNTpCUF7+Z1A8URJWRFzxF+AmE=
@@ -22,11 +46,11 @@
 		</data>
 		<key>Modules/Adpumb.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		yWFHNswstBqkeBJZ7DzZWzRgugA=
+		A1pPSboavqENHNRdqGdlWJLg03k=
 		</data>
 		<key>Modules/Adpumb.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0ftYKXiYJdxWpiCR8bpSYbBIG5Y=
+		R3UnuhFiKvkqrjvxzOwkv/llVHs=
 		</data>
 		<key>Modules/Adpumb.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,11 +58,11 @@
 		</data>
 		<key>Modules/Adpumb.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		4fhngHObhEl/cbVeE2jUgc3JYtk=
+		yFSOz6HhTyyySb8d13KMqWjI1Iw=
 		</data>
 		<key>Modules/Adpumb.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		uNjySTafk9uTAdonUVJJnFzIDDc=
+		L0TN1U0CTsNAenf8aOFVSjSpb6k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,6 +71,48 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/GoogleMobileAds.framework/GoogleMobileAds</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			khQW8HXDXiV/MlKfRSXVoaz6SC84OuJRLZNfStF1y9A=
+			</data>
+		</dict>
+		<key>Frameworks/GoogleMobileAds.framework/_CodeSignature/CodeDirectory</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fdz7UR2CtuPp4zhjGeSidhiw9dXPDq7cMixsblN+3IQ=
+			</data>
+		</dict>
+		<key>Frameworks/GoogleMobileAds.framework/_CodeSignature/CodeRequirements</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
+			</data>
+		</dict>
+		<key>Frameworks/GoogleMobileAds.framework/_CodeSignature/CodeRequirements-1</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DxjaauSxCmvp8GJKHf9jxHTg4j8vUPWPOPldaAHH62k=
+			</data>
+		</dict>
+		<key>Frameworks/GoogleMobileAds.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PentQquS9mssYDO1nM+kQbHQUMMZ2u61V1UbTaUTFH4=
+			</data>
+		</dict>
+		<key>Frameworks/GoogleMobileAds.framework/_CodeSignature/CodeSignature</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			</data>
+		</dict>
 		<key>Headers/Adpumb-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -72,14 +138,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cve95meCPyBuKtPNiF8eRVJD1UC6olGC0mPLh1uMz6o=
+			tYxmaEh5HVEFib/9TFmZ3jw8Huld97l6IekoQ+J4JNI=
 			</data>
 		</dict>
 		<key>Modules/Adpumb.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nYXZBg3sXDGfxJFFvBS2XIKxZa6qN/9QugjxdbUlbGk=
+			vVdMS5Dzmfo1i3b6Vg9V3TGA68KGn4tkKoJcjwn6suA=
 			</data>
 		</dict>
 		<key>Modules/Adpumb.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -93,14 +159,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U1ExEDnyvi19aX9Seq5kg63ZHs1/2hyDkWI1Ly234jA=
+			gx1hB+KO9bpmhKKKcnbmlpi/L6IhQimKZ90eBcJbS48=
 			</data>
 		</dict>
 		<key>Modules/Adpumb.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J9WG1Dun3om4AK3u2Darm/a+L4XSvlMWCjnSOmIJ2eU=
+			PPpG9JeqePedMVaFX2PAR+3uWVYEFxQoyTm7orox/OM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
