@@ -1,0 +1,11 @@
+framework module Adpumb {
+  umbrella header "Adpumb.h"
+
+  export *
+  module * { export * }
+}
+
+module Adpumb.Swift {
+    header "Adpumb-Swift.h"
+    requires objc
+}
