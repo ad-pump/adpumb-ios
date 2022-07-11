@@ -4,30 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/GoogleMobileAds.framework/GoogleMobileAds</key>
-		<data>
-		dRjgvRbadwk9MnEcGb8HbecukAg=
-		</data>
-		<key>Frameworks/GoogleMobileAds.framework/_CodeSignature/CodeDirectory</key>
-		<data>
-		Z0LiWQ3us+sExHlUFUrF4da/KKM=
-		</data>
-		<key>Frameworks/GoogleMobileAds.framework/_CodeSignature/CodeRequirements</key>
-		<data>
-		/woQVSttbHWJjLsi+nZ5L2TiQHI=
-		</data>
-		<key>Frameworks/GoogleMobileAds.framework/_CodeSignature/CodeRequirements-1</key>
-		<data>
-		u2gHczLZ5xLpXFU4iqDNCUPtWe4=
-		</data>
-		<key>Frameworks/GoogleMobileAds.framework/_CodeSignature/CodeResources</key>
-		<data>
-		HK2c3QmhpcYSZRgkvpUe5YHi6gA=
-		</data>
-		<key>Frameworks/GoogleMobileAds.framework/_CodeSignature/CodeSignature</key>
-		<data>
-		ivp2FcVVcSqjiUJKPABypETqrUc=
-		</data>
 		<key>Headers/Adpumb-Swift.h</key>
 		<data>
 		1+2uXnNv6+rgNHyydnqqaFqr4XI=
@@ -71,72 +47,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/GoogleMobileAds.framework/GoogleMobileAds</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			dRjgvRbadwk9MnEcGb8HbecukAg=
-			</data>
-			<key>hash2</key>
-			<data>
-			V19nDbvLcLtvhPkL1LNeky4jXNHa/pHfaJC7IELxLfE=
-			</data>
-		</dict>
-		<key>Frameworks/GoogleMobileAds.framework/_CodeSignature/CodeDirectory</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Z0LiWQ3us+sExHlUFUrF4da/KKM=
-			</data>
-			<key>hash2</key>
-			<data>
-			w6VjAu57pw7LRlTgYKd879YzY+YnqdMvAnpumRwOlAg=
-			</data>
-		</dict>
-		<key>Frameworks/GoogleMobileAds.framework/_CodeSignature/CodeRequirements</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/woQVSttbHWJjLsi+nZ5L2TiQHI=
-			</data>
-			<key>hash2</key>
-			<data>
-			GNg13XcMQcL35gXIPJKqd24JO3sfigEsEZrQUEqBF0k=
-			</data>
-		</dict>
-		<key>Frameworks/GoogleMobileAds.framework/_CodeSignature/CodeRequirements-1</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			u2gHczLZ5xLpXFU4iqDNCUPtWe4=
-			</data>
-			<key>hash2</key>
-			<data>
-			JM7T5l7S+RO4iqssYHKx4LTkaXh2cebA0uWk0aO77Rw=
-			</data>
-		</dict>
-		<key>Frameworks/GoogleMobileAds.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			HK2c3QmhpcYSZRgkvpUe5YHi6gA=
-			</data>
-			<key>hash2</key>
-			<data>
-			PentQquS9mssYDO1nM+kQbHQUMMZ2u61V1UbTaUTFH4=
-			</data>
-		</dict>
-		<key>Frameworks/GoogleMobileAds.framework/_CodeSignature/CodeSignature</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ivp2FcVVcSqjiUJKPABypETqrUc=
-			</data>
-			<key>hash2</key>
-			<data>
-			fcDvCOc5fgvJ+wWSShw00j9TupUNegu0GX78Zhs6zi4=
-			</data>
-		</dict>
 		<key>Headers/Adpumb-Swift.h</key>
 		<dict>
 			<key>hash</key>
