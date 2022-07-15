@@ -4,6 +4,38 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/FBAudienceNetwork.framework/FBAudienceNetwork</key>
+		<data>
+		zZAjhadJ9p6iKu4TIz9YTBpJ0l4=
+		</data>
+		<key>Frameworks/FBAudienceNetwork.framework/Info.plist</key>
+		<data>
+		l/txjdF89V+GUCeGp/Yxx+CVQFA=
+		</data>
+		<key>Frameworks/FBAudienceNetwork.framework/PkgInfo</key>
+		<data>
+		cBYDa3QyibPnSPDvyuw5uDs0LWg=
+		</data>
+		<key>Frameworks/FBAudienceNetwork.framework/_CodeSignature/CodeDirectory</key>
+		<data>
+		bta28GM6NM0wnMgosgAZ5yS+RGA=
+		</data>
+		<key>Frameworks/FBAudienceNetwork.framework/_CodeSignature/CodeRequirements</key>
+		<data>
+		OnX22wWFKRSOFN1+obRynMCeyXM=
+		</data>
+		<key>Frameworks/FBAudienceNetwork.framework/_CodeSignature/CodeRequirements-1</key>
+		<data>
+		1tIPjFkCTtedf7OirbUu4ivsUww=
+		</data>
+		<key>Frameworks/FBAudienceNetwork.framework/_CodeSignature/CodeResources</key>
+		<data>
+		rWL1EgJgCQwVttpRJHyHOq9AyP4=
+		</data>
+		<key>Frameworks/FBAudienceNetwork.framework/_CodeSignature/CodeSignature</key>
+		<data>
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		</data>
 		<key>Headers/Adpumb-Swift.h</key>
 		<data>
 		kvnq5Y20QxJRIyeLcb4mKhUCZQw=
@@ -59,6 +91,94 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/FBAudienceNetwork.framework/FBAudienceNetwork</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zZAjhadJ9p6iKu4TIz9YTBpJ0l4=
+			</data>
+			<key>hash2</key>
+			<data>
+			5mu1MIq1WFuXdBtj4Hq909fOcoPZAxFaCffJYuA4rY8=
+			</data>
+		</dict>
+		<key>Frameworks/FBAudienceNetwork.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			l/txjdF89V+GUCeGp/Yxx+CVQFA=
+			</data>
+			<key>hash2</key>
+			<data>
+			7JZfE3QpA0mNbAJsZaxUlWYj1ccltyxF70nV+BY7n80=
+			</data>
+		</dict>
+		<key>Frameworks/FBAudienceNetwork.framework/PkgInfo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cBYDa3QyibPnSPDvyuw5uDs0LWg=
+			</data>
+			<key>hash2</key>
+			<data>
+			KIPJdhuYpCHG8dugfGO+DAsGwnleS5hpIX6yXzPrQuk=
+			</data>
+		</dict>
+		<key>Frameworks/FBAudienceNetwork.framework/_CodeSignature/CodeDirectory</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bta28GM6NM0wnMgosgAZ5yS+RGA=
+			</data>
+			<key>hash2</key>
+			<data>
+			j5qneq/Of1YRAl73jKojnTDsZSErQTdIdP8iJtwkPxw=
+			</data>
+		</dict>
+		<key>Frameworks/FBAudienceNetwork.framework/_CodeSignature/CodeRequirements</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OnX22wWFKRSOFN1+obRynMCeyXM=
+			</data>
+			<key>hash2</key>
+			<data>
+			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
+			</data>
+		</dict>
+		<key>Frameworks/FBAudienceNetwork.framework/_CodeSignature/CodeRequirements-1</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1tIPjFkCTtedf7OirbUu4ivsUww=
+			</data>
+			<key>hash2</key>
+			<data>
+			OxEqt68DNIhJBtf35sowZZsqWFS+gAbo0JZ4q+q6pks=
+			</data>
+		</dict>
+		<key>Frameworks/FBAudienceNetwork.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rWL1EgJgCQwVttpRJHyHOq9AyP4=
+			</data>
+			<key>hash2</key>
+			<data>
+			jcG8mWDYpYhfoG1Wy16wK6EZ301PS0J0xSghYO/lvDk=
+			</data>
+		</dict>
+		<key>Frameworks/FBAudienceNetwork.framework/_CodeSignature/CodeSignature</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+			</data>
+			<key>hash2</key>
+			<data>
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			</data>
+		</dict>
 		<key>Headers/Adpumb-Swift.h</key>
 		<dict>
 			<key>hash</key>
