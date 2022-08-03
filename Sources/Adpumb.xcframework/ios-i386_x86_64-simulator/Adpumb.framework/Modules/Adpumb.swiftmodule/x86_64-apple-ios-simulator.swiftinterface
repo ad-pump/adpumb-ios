@@ -4,6 +4,7 @@
 import AdSupport
 @_exported import Adpumb
 import AppTrackingTransparency
+import Firebase
 import Foundation
 import GoogleMobileAds
 import Swift
@@ -20,6 +21,10 @@ public class AdDisplayManager {
   public func initializeAdapter()
   public static func updatePresenter(viewController: UIKit.UIViewController?)
   public static func getPresenter() -> UIKit.UIViewController
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class AdPumbBooter {
+  public static func initialize(key: Swift.String)
   @objc deinit
 }
 public protocol AdPumbAnalyticsDelegate {
