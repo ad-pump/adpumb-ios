@@ -4,7 +4,8 @@
 import AdSupport
 @_exported import Adpumb
 import AppTrackingTransparency
-import Firebase
+import FirebaseCore
+import FirebaseRemoteConfig
 import Foundation
 import GoogleMobileAds
 import Swift
