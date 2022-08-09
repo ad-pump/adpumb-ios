@@ -13,10 +13,8 @@ import UIKit
 import _Concurrency
 public class AdDisplayManager {
   public init()
-  public func getAdConfig() -> Adpumb.KempaAdConfig?
   public static func getInstance() -> Adpumb.AdDisplayManager
   public func updateContext(viewController: UIKit.UIViewController?)
-  public static func configure(adConfigJson: Swift.String)
   public func showAd(viewController: UIKit.UIViewController, adCompletionHandler: Adpumb.AdPumbDelegate?, placementOptions: Adpumb.PlacementOptions)
   public func showPendingAd()
   public func initializeAdapter()
@@ -25,7 +23,8 @@ public class AdDisplayManager {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class AdPumbBooter {
-  public static func initialize(key: Swift.String)
+  public static func initialize(key: Swift.String, isDebugMode: Swift.Bool)
+  public static func isDebugMode() -> Swift.Bool
   @objc deinit
 }
 public protocol AdPumbAnalyticsDelegate {
