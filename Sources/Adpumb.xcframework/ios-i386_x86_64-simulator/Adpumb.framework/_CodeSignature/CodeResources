@@ -4,34 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/Pods_Adpumb.framework/Info.plist</key>
-		<data>
-		H2FOTXVBkm01/A1Q3b8Jn6pPZQI=
-		</data>
-		<key>Frameworks/Pods_Adpumb.framework/Pods_Adpumb</key>
-		<data>
-		9KwlpZkXnkCW37D6h70wm/QFoYY=
-		</data>
-		<key>Frameworks/Pods_Adpumb.framework/_CodeSignature/CodeDirectory</key>
-		<data>
-		8BTbcBZ4KC6620KFM91G8k+1Yx4=
-		</data>
-		<key>Frameworks/Pods_Adpumb.framework/_CodeSignature/CodeRequirements</key>
-		<data>
-		OnX22wWFKRSOFN1+obRynMCeyXM=
-		</data>
-		<key>Frameworks/Pods_Adpumb.framework/_CodeSignature/CodeRequirements-1</key>
-		<data>
-		qMKBZlLgg4j6mafMcPchwI/cxOw=
-		</data>
-		<key>Frameworks/Pods_Adpumb.framework/_CodeSignature/CodeResources</key>
-		<data>
-		MgOvWh5yUxjo8Sl239hkyCUZyMQ=
-		</data>
-		<key>Frameworks/Pods_Adpumb.framework/_CodeSignature/CodeSignature</key>
-		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
-		</data>
 		<key>Headers/Adpumb-Swift.h</key>
 		<data>
 		AFE/xu+kgv3TUSUSkcjd1WJ6yEw=
@@ -54,7 +26,7 @@
 		</data>
 		<key>Modules/Adpumb.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dNpCouTQv5Bzi4DCmqvMq14VkR0=
+		K0QFqFqlPlVxNRUHTSmO0UytHHA=
 		</data>
 		<key>Modules/Adpumb.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -66,7 +38,7 @@
 		</data>
 		<key>Modules/Adpumb.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		7dhApZAKpHwq4eRLTwI3URfNt7s=
+		Fs6rkqwGT66CrUJqzYrC3Mf+FKY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -75,83 +47,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/Pods_Adpumb.framework/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			H2FOTXVBkm01/A1Q3b8Jn6pPZQI=
-			</data>
-			<key>hash2</key>
-			<data>
-			lCCU+vY2/wj73+BFL79V2OatvkaNF8ie58U+JTXJ2AU=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_Adpumb.framework/Pods_Adpumb</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			9KwlpZkXnkCW37D6h70wm/QFoYY=
-			</data>
-			<key>hash2</key>
-			<data>
-			5mWupVW6p+uHWl0fsXhf9xSMkSkzcgWtSqQyfcHx6cY=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_Adpumb.framework/_CodeSignature/CodeDirectory</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			8BTbcBZ4KC6620KFM91G8k+1Yx4=
-			</data>
-			<key>hash2</key>
-			<data>
-			gSUKUX39Dzg4vw1bR12Iy88syg4RHZGxzketxT1oIog=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_Adpumb.framework/_CodeSignature/CodeRequirements</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			OnX22wWFKRSOFN1+obRynMCeyXM=
-			</data>
-			<key>hash2</key>
-			<data>
-			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_Adpumb.framework/_CodeSignature/CodeRequirements-1</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qMKBZlLgg4j6mafMcPchwI/cxOw=
-			</data>
-			<key>hash2</key>
-			<data>
-			fH8fgZX+1r83C6IcJuV4OsFc8A0l70gPtucn004Fj90=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_Adpumb.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MgOvWh5yUxjo8Sl239hkyCUZyMQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			ORg8V7uv8qxaAhPrYZLWqK5GepX3p85DAIhHNJ2RTJA=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_Adpumb.framework/_CodeSignature/CodeSignature</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
-			</data>
-			<key>hash2</key>
-			<data>
-			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
-			</data>
-		</dict>
 		<key>Headers/Adpumb-Swift.h</key>
 		<dict>
 			<key>hash</key>
@@ -200,11 +95,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dNpCouTQv5Bzi4DCmqvMq14VkR0=
+			K0QFqFqlPlVxNRUHTSmO0UytHHA=
 			</data>
 			<key>hash2</key>
 			<data>
-			k6i2HHH/rcOiAq6ylA6aPuVQjndh5W85I7ADpFbFzMw=
+			gNKi7IncBun3iTXaLChn29XGxwh9/Ke69Z5wR/CoxXs=
 			</data>
 		</dict>
 		<key>Modules/Adpumb.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -233,11 +128,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7dhApZAKpHwq4eRLTwI3URfNt7s=
+			Fs6rkqwGT66CrUJqzYrC3Mf+FKY=
 			</data>
 			<key>hash2</key>
 			<data>
-			hqFENc3J4zmGlueWxg9TI1M4XJKR4IiHLtt8a2cucQQ=
+			NaBAHei4qFbpv71+60XfzatYW0yg8KIJx0wNVhJF23k=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
