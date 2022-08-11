@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/Adpumb.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		K0QFqFqlPlVxNRUHTSmO0UytHHA=
+		sVDjkg4xTXkYpyQ6Fd4AWKkSxYA=
 		</data>
 		<key>Modules/Adpumb.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/Adpumb.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Fs6rkqwGT66CrUJqzYrC3Mf+FKY=
+		wls+RQamwM1JP0y2/y0XXiDbLX4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -95,11 +95,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			K0QFqFqlPlVxNRUHTSmO0UytHHA=
+			sVDjkg4xTXkYpyQ6Fd4AWKkSxYA=
 			</data>
 			<key>hash2</key>
 			<data>
-			gNKi7IncBun3iTXaLChn29XGxwh9/Ke69Z5wR/CoxXs=
+			dX7cGHFk5nEwVYT+HRW0eABU5Al3FMhNU0uhWeOyXgg=
 			</data>
 		</dict>
 		<key>Modules/Adpumb.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -128,11 +128,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Fs6rkqwGT66CrUJqzYrC3Mf+FKY=
+			wls+RQamwM1JP0y2/y0XXiDbLX4=
 			</data>
 			<key>hash2</key>
 			<data>
-			NaBAHei4qFbpv71+60XfzatYW0yg8KIJx0wNVhJF23k=
+			Dd2ISoWxuTGuM/r+US4T4+L5YN3w5kaEhAMn6ANsjI8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
