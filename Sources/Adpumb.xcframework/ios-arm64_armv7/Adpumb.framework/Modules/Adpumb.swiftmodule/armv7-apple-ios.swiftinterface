@@ -43,6 +43,7 @@ public class KempaAdConfig : Swift.Codable {
   required public init(from decoder: Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers public class KempaMediationAdapter {
+  public func reloadInvalidAds()
   public static func setKempaMediationAdapter(kempaMediationAdapter: Adpumb.KempaMediationAdapter)
   @objc deinit
 }
