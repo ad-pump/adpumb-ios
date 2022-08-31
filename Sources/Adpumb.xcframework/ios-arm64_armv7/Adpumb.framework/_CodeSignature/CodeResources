@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/Adpumb.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		WcrRvjm1cPEIFrcks6y97L0LNks=
+		rmd5d3VCRO2c+i+RaHVcUKu4DbU=
 		</data>
 		<key>Modules/Adpumb.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/Adpumb.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		V5C5obVhD90SHqzNQjX0ok2YKh0=
+		PBhdBZDPUPSZEey7iHfZiEWA88M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -95,11 +95,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WcrRvjm1cPEIFrcks6y97L0LNks=
+			rmd5d3VCRO2c+i+RaHVcUKu4DbU=
 			</data>
 			<key>hash2</key>
 			<data>
-			mEBHx7mkWNTdGhIXYy/lDoF/sgQWEeucPslTkBbkmps=
+			H7oxKN1+OyExtvswelQGrIUNduzFWA5FyPg4TYrMkMg=
 			</data>
 		</dict>
 		<key>Modules/Adpumb.swiftmodule/armv7-apple-ios.swiftdoc</key>
@@ -128,11 +128,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			V5C5obVhD90SHqzNQjX0ok2YKh0=
+			PBhdBZDPUPSZEey7iHfZiEWA88M=
 			</data>
 			<key>hash2</key>
 			<data>
-			uDc1PFAksTDZ5tlZQqhqN/Z1Hto7o4CyfEMI76WUtXI=
+			wLaNFHx+a0+QVfvIhunKqFSnulDQKgcLfGM8KIP67b0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
