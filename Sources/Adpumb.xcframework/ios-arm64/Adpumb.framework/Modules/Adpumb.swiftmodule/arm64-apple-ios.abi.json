@@ -1,0 +1,2886 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "Adpumb"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Adpumb"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "Adpumb"
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "Adpumb"
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "Adpumb"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdDisplayManager",
+        "printedName": "AdDisplayManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdDisplayManager",
+                "printedName": "Adpumb.AdDisplayManager",
+                "usr": "s:6Adpumb16AdDisplayManagerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6Adpumb16AdDisplayManagerCACycfc",
+            "mangledName": "$s6Adpumb16AdDisplayManagerCACycfc",
+            "moduleName": "Adpumb",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getInstance",
+            "printedName": "getInstance()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdDisplayManager",
+                "printedName": "Adpumb.AdDisplayManager",
+                "usr": "s:6Adpumb16AdDisplayManagerC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Adpumb16AdDisplayManagerC11getInstanceACyFZ",
+            "mangledName": "$s6Adpumb16AdDisplayManagerC11getInstanceACyFZ",
+            "moduleName": "Adpumb",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateContext",
+            "printedName": "updateContext(viewController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Adpumb16AdDisplayManagerC13updateContext14viewControllerySo06UIViewH0CSg_tF",
+            "mangledName": "$s6Adpumb16AdDisplayManagerC13updateContext14viewControllerySo06UIViewH0CSg_tF",
+            "moduleName": "Adpumb",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showAd",
+            "printedName": "showAd(viewController:adCompletionHandler:placementOptions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Adpumb.AdPumbDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdPumbDelegate",
+                    "printedName": "Adpumb.AdPumbDelegate",
+                    "usr": "s:6Adpumb14AdPumbDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PlacementOptions",
+                "printedName": "Adpumb.PlacementOptions",
+                "usr": "s:6Adpumb16PlacementOptionsC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Adpumb16AdDisplayManagerC04showB014viewController19adCompletionHandler16placementOptionsySo06UIViewG0C_AA0B12PumbDelegate_pSgAA09PlacementL0CtF",
+            "mangledName": "$s6Adpumb16AdDisplayManagerC04showB014viewController19adCompletionHandler16placementOptionsySo06UIViewG0C_AA0B12PumbDelegate_pSgAA09PlacementL0CtF",
+            "moduleName": "Adpumb",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showPendingAd",
+            "printedName": "showPendingAd()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Adpumb16AdDisplayManagerC011showPendingB0yyF",
+            "mangledName": "$s6Adpumb16AdDisplayManagerC011showPendingB0yyF",
+            "moduleName": "Adpumb",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initializeAdapter",
+            "printedName": "initializeAdapter()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Adpumb16AdDisplayManagerC17initializeAdapteryyF",
+            "mangledName": "$s6Adpumb16AdDisplayManagerC17initializeAdapteryyF",
+            "moduleName": "Adpumb",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updatePresenter",
+            "printedName": "updatePresenter(viewController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Adpumb16AdDisplayManagerC15updatePresenter14viewControllerySo06UIViewH0CSg_tFZ",
+            "mangledName": "$s6Adpumb16AdDisplayManagerC15updatePresenter14viewControllerySo06UIViewH0CSg_tFZ",
+            "moduleName": "Adpumb",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPresenter",
+            "printedName": "getPresenter()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Adpumb16AdDisplayManagerC12getPresenterSo16UIViewControllerCyFZ",
+            "mangledName": "$s6Adpumb16AdDisplayManagerC12getPresenterSo16UIViewControllerCyFZ",
+            "moduleName": "Adpumb",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6Adpumb16AdDisplayManagerC",
+        "mangledName": "$s6Adpumb16AdDisplayManagerC",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "Adpumb"
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "Adpumb"
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "Adpumb"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdPumbBooter",
+        "printedName": "AdPumbBooter",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(key:isDebugMode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Adpumb12AdPumbBooterC10initialize3key11isDebugModeySS_SbtFZ",
+            "mangledName": "$s6Adpumb12AdPumbBooterC10initialize3key11isDebugModeySS_SbtFZ",
+            "moduleName": "Adpumb",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isDebugMode",
+            "printedName": "isDebugMode()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Adpumb12AdPumbBooterC11isDebugModeSbyFZ",
+            "mangledName": "$s6Adpumb12AdPumbBooterC11isDebugModeSbyFZ",
+            "moduleName": "Adpumb",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6Adpumb12AdPumbBooterC",
+        "mangledName": "$s6Adpumb12AdPumbBooterC",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdPumbAnalyticsDelegate",
+        "printedName": "AdPumbAnalyticsDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onEvent",
+            "printedName": "onEvent(impressionData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImpressionData",
+                "printedName": "Adpumb.ImpressionData",
+                "usr": "s:6Adpumb14ImpressionDataC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Adpumb23AdPumbAnalyticsDelegateP7onEvent14impressionDatayAA010ImpressionI0C_tF",
+            "mangledName": "$s6Adpumb23AdPumbAnalyticsDelegateP7onEvent14impressionDatayAA010ImpressionI0C_tF",
+            "moduleName": "Adpumb",
+            "genericSig": "<τ_0_0 where τ_0_0 : Adpumb.AdPumbAnalyticsDelegate>",
+            "sugared_genericSig": "<Self where Self : Adpumb.AdPumbAnalyticsDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6Adpumb23AdPumbAnalyticsDelegateP",
+        "mangledName": "$s6Adpumb23AdPumbAnalyticsDelegateP",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VpnFreeDelegate",
+        "printedName": "VpnFreeDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onOutOfVPN",
+            "printedName": "onOutOfVPN()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Adpumb15VpnFreeDelegateP10onOutOfVPNyyF",
+            "mangledName": "$s6Adpumb15VpnFreeDelegateP10onOutOfVPNyyF",
+            "moduleName": "Adpumb",
+            "genericSig": "<τ_0_0 where τ_0_0 : Adpumb.VpnFreeDelegate>",
+            "sugared_genericSig": "<Self where Self : Adpumb.VpnFreeDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onVPN",
+            "printedName": "onVPN()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Adpumb15VpnFreeDelegateP5onVPNyyF",
+            "mangledName": "$s6Adpumb15VpnFreeDelegateP5onVPNyyF",
+            "moduleName": "Adpumb",
+            "genericSig": "<τ_0_0 where τ_0_0 : Adpumb.VpnFreeDelegate>",
+            "sugared_genericSig": "<Self where Self : Adpumb.VpnFreeDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6Adpumb15VpnFreeDelegateP",
+        "mangledName": "$s6Adpumb15VpnFreeDelegateP",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KempaAdConfig",
+        "printedName": "KempaAdConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "useAppodeal",
+            "printedName": "useAppodeal",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Adpumb13KempaAdConfigC11useAppodealSbvp",
+            "mangledName": "$s6Adpumb13KempaAdConfigC11useAppodealSbvp",
+            "moduleName": "Adpumb",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Adpumb13KempaAdConfigC11useAppodealSbvg",
+                "mangledName": "$s6Adpumb13KempaAdConfigC11useAppodealSbvg",
+                "moduleName": "Adpumb",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Adpumb13KempaAdConfigC11useAppodealSbvs",
+                "mangledName": "$s6Adpumb13KempaAdConfigC11useAppodealSbvs",
+                "moduleName": "Adpumb",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Adpumb13KempaAdConfigC11useAppodealSbvM",
+                "mangledName": "$s6Adpumb13KempaAdConfigC11useAppodealSbvM",
+                "moduleName": "Adpumb",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "googleInterstitialAdReload",
+            "printedName": "googleInterstitialAdReload",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Adpumb13KempaAdConfigC018googleInterstitialC6ReloadSivp",
+            "mangledName": "$s6Adpumb13KempaAdConfigC018googleInterstitialC6ReloadSivp",
+            "moduleName": "Adpumb",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Adpumb13KempaAdConfigC018googleInterstitialC6ReloadSivg",
+                "mangledName": "$s6Adpumb13KempaAdConfigC018googleInterstitialC6ReloadSivg",
+                "moduleName": "Adpumb",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Adpumb13KempaAdConfigC018googleInterstitialC6ReloadSivs",
+                "mangledName": "$s6Adpumb13KempaAdConfigC018googleInterstitialC6ReloadSivs",
+                "moduleName": "Adpumb",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Adpumb13KempaAdConfigC018googleInterstitialC6ReloadSivM",
+                "mangledName": "$s6Adpumb13KempaAdConfigC018googleInterstitialC6ReloadSivM",
+                "moduleName": "Adpumb",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "disabledPlacements",
+            "printedName": "disabledPlacements",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Adpumb13KempaAdConfigC18disabledPlacementsSaySSGvp",
+            "mangledName": "$s6Adpumb13KempaAdConfigC18disabledPlacementsSaySSGvp",
+            "moduleName": "Adpumb",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Adpumb13KempaAdConfigC18disabledPlacementsSaySSGvg",
+                "mangledName": "$s6Adpumb13KempaAdConfigC18disabledPlacementsSaySSGvg",
+                "moduleName": "Adpumb",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Adpumb13KempaAdConfigC18disabledPlacementsSaySSGvs",
+                "mangledName": "$s6Adpumb13KempaAdConfigC18disabledPlacementsSaySSGvs",
+                "moduleName": "Adpumb",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Adpumb13KempaAdConfigC18disabledPlacementsSaySSGvM",
+                "mangledName": "$s6Adpumb13KempaAdConfigC18disabledPlacementsSaySSGvM",
+                "moduleName": "Adpumb",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adNetworks",
+            "printedName": "adNetworks",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Adpumb.KempaAdNetwork]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KempaAdNetwork",
+                    "printedName": "Adpumb.KempaAdNetwork",
+                    "usr": "s:6Adpumb14KempaAdNetworkC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Adpumb13KempaAdConfigC10adNetworksSayAA0bC7NetworkCGvp",
+            "mangledName": "$s6Adpumb13KempaAdConfigC10adNetworksSayAA0bC7NetworkCGvp",
+            "moduleName": "Adpumb",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Adpumb.KempaAdNetwork]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KempaAdNetwork",
+                        "printedName": "Adpumb.KempaAdNetwork",
+                        "usr": "s:6Adpumb14KempaAdNetworkC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Adpumb13KempaAdConfigC10adNetworksSayAA0bC7NetworkCGvg",
+                "mangledName": "$s6Adpumb13KempaAdConfigC10adNetworksSayAA0bC7NetworkCGvg",
+                "moduleName": "Adpumb",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Adpumb.KempaAdNetwork]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KempaAdNetwork",
+                        "printedName": "Adpumb.KempaAdNetwork",
+                        "usr": "s:6Adpumb14KempaAdNetworkC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Adpumb13KempaAdConfigC10adNetworksSayAA0bC7NetworkCGvs",
+                "mangledName": "$s6Adpumb13KempaAdConfigC10adNetworksSayAA0bC7NetworkCGvs",
+                "moduleName": "Adpumb",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Adpumb13KempaAdConfigC10adNetworksSayAA0bC7NetworkCGvM",
+                "mangledName": "$s6Adpumb13KempaAdConfigC10adNetworksSayAA0bC7NetworkCGvM",
+                "moduleName": "Adpumb",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Adpumb13KempaAdConfigC7versionSSvp",
+            "mangledName": "$s6Adpumb13KempaAdConfigC7versionSSvp",
+            "moduleName": "Adpumb",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Adpumb13KempaAdConfigC7versionSSvg",
+                "mangledName": "$s6Adpumb13KempaAdConfigC7versionSSvg",
+                "moduleName": "Adpumb",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Adpumb13KempaAdConfigC7versionSSvs",
+                "mangledName": "$s6Adpumb13KempaAdConfigC7versionSSvs",
+                "moduleName": "Adpumb",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Adpumb13KempaAdConfigC7versionSSvM",
+                "mangledName": "$s6Adpumb13KempaAdConfigC7versionSSvM",
+                "moduleName": "Adpumb",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KempaAdConfig",
+                "printedName": "Adpumb.KempaAdConfig",
+                "usr": "s:6Adpumb13KempaAdConfigC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6Adpumb13KempaAdConfigC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s6Adpumb13KempaAdConfigC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "Adpumb",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Adpumb13KempaAdConfigC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s6Adpumb13KempaAdConfigC6encode2toys7Encoder_p_tKF",
+            "moduleName": "Adpumb",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6Adpumb13KempaAdConfigC",
+        "mangledName": "$s6Adpumb13KempaAdConfigC",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Adpumb"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Adpumb"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KempaMediationAdapter",
+        "printedName": "KempaMediationAdapter",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "reloadInvalidAds",
+            "printedName": "reloadInvalidAds()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Adpumb21KempaMediationAdapterC16reloadInvalidAdsyyF",
+            "mangledName": "$s6Adpumb21KempaMediationAdapterC16reloadInvalidAdsyyF",
+            "moduleName": "Adpumb",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setKempaMediationAdapter",
+            "printedName": "setKempaMediationAdapter(kempaMediationAdapter:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KempaMediationAdapter",
+                "printedName": "Adpumb.KempaMediationAdapter",
+                "usr": "s:6Adpumb21KempaMediationAdapterC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Adpumb21KempaMediationAdapterC03setbcD005kempacD0yAC_tFZ",
+            "mangledName": "$s6Adpumb21KempaMediationAdapterC03setbcD005kempacD0yAC_tFZ",
+            "moduleName": "Adpumb",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6Adpumb21KempaMediationAdapterC",
+        "mangledName": "$s6Adpumb21KempaMediationAdapterC",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Adpumb"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "Adpumb"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Adpumb"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImpressionData",
+        "printedName": "ImpressionData",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getAdUnitID",
+            "printedName": "getAdUnitID()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Adpumb14ImpressionDataC11getAdUnitIDSSyF",
+            "mangledName": "$s6Adpumb14ImpressionDataC11getAdUnitIDSSyF",
+            "moduleName": "Adpumb",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getEcpm",
+            "printedName": "getEcpm()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Adpumb14ImpressionDataC7getEcpmSfyF",
+            "mangledName": "$s6Adpumb14ImpressionDataC7getEcpmSfyF",
+            "moduleName": "Adpumb",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPlacementName",
+            "printedName": "getPlacementName()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PlacementOptions",
+                "printedName": "Adpumb.PlacementOptions",
+                "usr": "s:6Adpumb16PlacementOptionsC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Adpumb14ImpressionDataC16getPlacementNameAA0E7OptionsCyF",
+            "mangledName": "$s6Adpumb14ImpressionDataC16getPlacementNameAA0E7OptionsCyF",
+            "moduleName": "Adpumb",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAdConfigVersion",
+            "printedName": "getAdConfigVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Adpumb14ImpressionDataC18getAdConfigVersionSSyF",
+            "mangledName": "$s6Adpumb14ImpressionDataC18getAdConfigVersionSSyF",
+            "moduleName": "Adpumb",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6Adpumb14ImpressionDataC",
+        "mangledName": "$s6Adpumb14ImpressionDataC",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Configuration",
+        "printedName": "Configuration",
+        "declKind": "Class",
+        "usr": "s:6Adpumb13ConfigurationC",
+        "mangledName": "$s6Adpumb13ConfigurationC",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdpumbConfiguration",
+        "printedName": "AdpumbConfiguration",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setExternalAnalytics",
+            "printedName": "setExternalAnalytics(analyticsDelegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdPumbAnalyticsDelegate",
+                "printedName": "Adpumb.AdPumbAnalyticsDelegate",
+                "usr": "s:6Adpumb23AdPumbAnalyticsDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Adpumb0A13ConfigurationC20setExternalAnalytics17analyticsDelegateyAA06AdPumbeG0_p_tFZ",
+            "mangledName": "$s6Adpumb0A13ConfigurationC20setExternalAnalytics17analyticsDelegateyAA06AdPumbeG0_p_tFZ",
+            "moduleName": "Adpumb",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getExternalAnalytics",
+            "printedName": "getExternalAnalytics()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Adpumb.AdPumbAnalyticsDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdPumbAnalyticsDelegate",
+                    "printedName": "Adpumb.AdPumbAnalyticsDelegate",
+                    "usr": "s:6Adpumb23AdPumbAnalyticsDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Adpumb0A13ConfigurationC20getExternalAnalyticsAA06AdPumbE8Delegate_pSgyFZ",
+            "mangledName": "$s6Adpumb0A13ConfigurationC20getExternalAnalyticsAA06AdPumbE8Delegate_pSgyFZ",
+            "moduleName": "Adpumb",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6Adpumb0A13ConfigurationC",
+        "mangledName": "$s6Adpumb0A13ConfigurationC",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KempaAdNetwork",
+        "printedName": "KempaAdNetwork",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KempaAdNetwork",
+                "printedName": "Adpumb.KempaAdNetwork",
+                "usr": "s:6Adpumb14KempaAdNetworkC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6Adpumb14KempaAdNetworkC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s6Adpumb14KempaAdNetworkC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "Adpumb",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Adpumb14KempaAdNetworkC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s6Adpumb14KempaAdNetworkC6encode2toys7Encoder_p_tKF",
+            "moduleName": "Adpumb",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6Adpumb14KempaAdNetworkC",
+        "mangledName": "$s6Adpumb14KempaAdNetworkC",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdVendor",
+        "printedName": "AdVendor",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "FACEBOOK",
+            "printedName": "FACEBOOK",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Adpumb8AdVendorC8FACEBOOKSSvpZ",
+            "mangledName": "$s6Adpumb8AdVendorC8FACEBOOKSSvpZ",
+            "moduleName": "Adpumb",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Adpumb8AdVendorC8FACEBOOKSSvgZ",
+                "mangledName": "$s6Adpumb8AdVendorC8FACEBOOKSSvgZ",
+                "moduleName": "Adpumb",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "GOOGLE",
+            "printedName": "GOOGLE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Adpumb8AdVendorC6GOOGLESSvpZ",
+            "mangledName": "$s6Adpumb8AdVendorC6GOOGLESSvpZ",
+            "moduleName": "Adpumb",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Adpumb8AdVendorC6GOOGLESSvgZ",
+                "mangledName": "$s6Adpumb8AdVendorC6GOOGLESSvgZ",
+                "moduleName": "Adpumb",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6Adpumb8AdVendorC",
+        "mangledName": "$s6Adpumb8AdVendorC",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MediatioionDelegate",
+        "printedName": "MediatioionDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onMediationInitialized",
+            "printedName": "onMediationInitialized()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Adpumb19MediatioionDelegateP22onMediationInitializedyyF",
+            "mangledName": "$s6Adpumb19MediatioionDelegateP22onMediationInitializedyyF",
+            "moduleName": "Adpumb",
+            "genericSig": "<τ_0_0 where τ_0_0 : Adpumb.MediatioionDelegate>",
+            "sugared_genericSig": "<Self where Self : Adpumb.MediatioionDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onMedatioinFailed",
+            "printedName": "onMedatioinFailed(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Adpumb19MediatioionDelegateP17onMedatioinFailed5errorySS_tF",
+            "mangledName": "$s6Adpumb19MediatioionDelegateP17onMedatioinFailed5errorySS_tF",
+            "moduleName": "Adpumb",
+            "genericSig": "<τ_0_0 where τ_0_0 : Adpumb.MediatioionDelegate>",
+            "sugared_genericSig": "<Self where Self : Adpumb.MediatioionDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6Adpumb19MediatioionDelegateP",
+        "mangledName": "$s6Adpumb19MediatioionDelegateP",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Storage",
+        "printedName": "Storage",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setAdShownTime",
+            "printedName": "setAdShownTime(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PlacementOptions",
+                "printedName": "Adpumb.PlacementOptions",
+                "usr": "s:6Adpumb16PlacementOptionsC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Adpumb7StorageC14setAdShownTimeyyAA16PlacementOptionsCFZ",
+            "mangledName": "$s6Adpumb7StorageC14setAdShownTimeyyAA16PlacementOptionsCFZ",
+            "moduleName": "Adpumb",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6Adpumb7StorageC",
+        "mangledName": "$s6Adpumb7StorageC",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdPumbDelegate",
+        "printedName": "AdPumbDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onAdFinished",
+            "printedName": "onAdFinished(success:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Adpumb14AdPumbDelegateP02onB8Finished7successySb_tF",
+            "mangledName": "$s6Adpumb14AdPumbDelegateP02onB8Finished7successySb_tF",
+            "moduleName": "Adpumb",
+            "genericSig": "<τ_0_0 where τ_0_0 : Adpumb.AdPumbDelegate>",
+            "sugared_genericSig": "<Self where Self : Adpumb.AdPumbDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6Adpumb14AdPumbDelegateP",
+        "mangledName": "$s6Adpumb14AdPumbDelegateP",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PlacementOptions",
+        "printedName": "PlacementOptions",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "placement",
+            "printedName": "placement",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Adpumb16PlacementOptionsC9placementSSvp",
+            "mangledName": "$s6Adpumb16PlacementOptionsC9placementSSvp",
+            "moduleName": "Adpumb",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Adpumb16PlacementOptionsC9placementSSvg",
+                "mangledName": "$s6Adpumb16PlacementOptionsC9placementSSvg",
+                "moduleName": "Adpumb",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Adpumb16PlacementOptionsC9placementSSvs",
+                "mangledName": "$s6Adpumb16PlacementOptionsC9placementSSvs",
+                "moduleName": "Adpumb",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Adpumb16PlacementOptionsC9placementSSvM",
+                "mangledName": "$s6Adpumb16PlacementOptionsC9placementSSvM",
+                "moduleName": "Adpumb",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "frequencyCapInMinutes",
+            "printedName": "frequencyCapInMinutes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Adpumb16PlacementOptionsC21frequencyCapInMinutesSivp",
+            "mangledName": "$s6Adpumb16PlacementOptionsC21frequencyCapInMinutesSivp",
+            "moduleName": "Adpumb",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Adpumb16PlacementOptionsC21frequencyCapInMinutesSivg",
+                "mangledName": "$s6Adpumb16PlacementOptionsC21frequencyCapInMinutesSivg",
+                "moduleName": "Adpumb",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Adpumb16PlacementOptionsC21frequencyCapInMinutesSivs",
+                "mangledName": "$s6Adpumb16PlacementOptionsC21frequencyCapInMinutesSivs",
+                "moduleName": "Adpumb",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Adpumb16PlacementOptionsC21frequencyCapInMinutesSivM",
+                "mangledName": "$s6Adpumb16PlacementOptionsC21frequencyCapInMinutesSivM",
+                "moduleName": "Adpumb",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "REWARD",
+            "printedName": "REWARD",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Adpumb16PlacementOptionsC6REWARDSSvpZ",
+            "mangledName": "$s6Adpumb16PlacementOptionsC6REWARDSSvpZ",
+            "moduleName": "Adpumb",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Adpumb16PlacementOptionsC6REWARDSSvgZ",
+                "mangledName": "$s6Adpumb16PlacementOptionsC6REWARDSSvgZ",
+                "moduleName": "Adpumb",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(placement:frequencyCapInMinutes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PlacementOptions",
+                "printedName": "Adpumb.PlacementOptions",
+                "usr": "s:6Adpumb16PlacementOptionsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6Adpumb16PlacementOptionsC9placement21frequencyCapInMinutesACSS_Sitcfc",
+            "mangledName": "$s6Adpumb16PlacementOptionsC9placement21frequencyCapInMinutesACSS_Sitcfc",
+            "moduleName": "Adpumb",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6Adpumb16PlacementOptionsC",
+        "mangledName": "$s6Adpumb16PlacementOptionsC",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/GoogleInterstitialAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 362,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/GoogleInterstitialAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 398,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/AdDisplayManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 396,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/AdPumbBooter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 239,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/AdPumbBooter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 287,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ImpressionLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 190,
+      "length": 25,
+      "value": "\"https:\/\/api.adpumb.com\/\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ImpressionLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 257,
+      "length": 25,
+      "value": "\"AdPumbConfigsImpression\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/mediation\/KempaAdConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 168,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/mediation\/KempaAdConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 223,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/KempaInterstitialAd.swift",
+      "kind": "StringLiteral",
+      "offset": 123,
+      "length": 19,
+      "value": "\"Adpumb.KempaInterstitialAd\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/utils\/AdPumbLoader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 261,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ConfigManager.swift",
+      "kind": "StringLiteral",
+      "offset": 206,
+      "length": 5,
+      "value": "\"AWS\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ConfigManager.swift",
+      "kind": "StringLiteral",
+      "offset": 248,
+      "length": 5,
+      "value": "\"GFB\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ConfigManager.swift",
+      "kind": "StringLiteral",
+      "offset": 301,
+      "length": 15,
+      "value": "\"AdPumbConfigs\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ConfigManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 410,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ConfigManager.swift",
+      "kind": "StringLiteral",
+      "offset": 439,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 226,
+      "length": 10,
+      "value": "\"clientId\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 239,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 251,
+      "length": 6,
+      "value": "\"UUID\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 260,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 272,
+      "length": 4,
+      "value": "\"ip\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 279,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 291,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "Array",
+      "offset": 300,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 542,
+      "length": 11,
+      "value": "\"timestamp\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 556,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 567,
+      "length": 15,
+      "value": "\"advertisingId\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 585,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 596,
+      "length": 17,
+      "value": "\"adConfigversion\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 616,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 627,
+      "length": 8,
+      "value": "\"adUnit\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 638,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 649,
+      "length": 6,
+      "value": "\"ecpm\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 658,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 669,
+      "length": 10,
+      "value": "\"adVendor\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 682,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 693,
+      "length": 11,
+      "value": "\"signature\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 707,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 718,
+      "length": 15,
+      "value": "\"placementName\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 736,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 747,
+      "length": 16,
+      "value": "\"libraryVersion\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 766,
+      "length": 5,
+      "value": "\"IOS\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 780,
+      "length": 9,
+      "value": "\"isDebug\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "BooleanLiteral",
+      "offset": 790,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 804,
+      "length": 8,
+      "value": "\"device\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "Array",
+      "offset": 815,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1706,
+      "length": 8,
+      "value": "\"SERIAL\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1717,
+      "length": 7,
+      "value": "\"Apple\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1734,
+      "length": 10,
+      "value": "\"CPU_ABI2\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1747,
+      "length": 7,
+      "value": "\"Apple\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1764,
+      "length": 10,
+      "value": "\"IS_DEBUG\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1777,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1792,
+      "length": 8,
+      "value": "\"DEVICE\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1803,
+      "length": 7,
+      "value": "\"Apple\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1820,
+      "length": 6,
+      "value": "\"HOST\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1829,
+      "length": 7,
+      "value": "\"Apple\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1846,
+      "length": 9,
+      "value": "\"RELEASE\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1858,
+      "length": 7,
+      "value": "\"Apple\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1875,
+      "length": 7,
+      "value": "\"MODEL\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1885,
+      "length": 7,
+      "value": "\"Apple\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1902,
+      "length": 14,
+      "value": "\"MANUFACTURER\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1919,
+      "length": 7,
+      "value": "\"Apple\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1936,
+      "length": 6,
+      "value": "\"USER\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1945,
+      "length": 7,
+      "value": "\"Apple\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1962,
+      "length": 9,
+      "value": "\"CPU_ABI\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1974,
+      "length": 7,
+      "value": "\"Apple\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1991,
+      "length": 7,
+      "value": "\"BRAND\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2001,
+      "length": 7,
+      "value": "\"Apple\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2018,
+      "length": 9,
+      "value": "\"DISPLAY\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2030,
+      "length": 7,
+      "value": "\"Apple\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2047,
+      "length": 11,
+      "value": "\"OSVERSION\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2061,
+      "length": 7,
+      "value": "\"Apple\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2078,
+      "length": 10,
+      "value": "\"HARDWARE\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2091,
+      "length": 7,
+      "value": "\"Apple\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2108,
+      "length": 9,
+      "value": "\"PRODUCT\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2120,
+      "length": 7,
+      "value": "\"Apple\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2137,
+      "length": 4,
+      "value": "\"ID\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2144,
+      "length": 7,
+      "value": "\"Apple\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/AWSConfigFinder.swift",
+      "kind": "StringLiteral",
+      "offset": 185,
+      "length": 18,
+      "value": "\"AdPumbAWSConfigs\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/AWSConfigFinder.swift",
+      "kind": "StringLiteral",
+      "offset": 284,
+      "length": 10,
+      "value": "\"adconfig\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/AWSConfigFinder.swift",
+      "kind": "StringLiteral",
+      "offset": 330,
+      "length": 21,
+      "value": "\"adconfig_last_fetch\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/AWSConfigFinder.swift",
+      "kind": "StringLiteral",
+      "offset": 383,
+      "length": 17,
+      "value": "\"AWSactiveConfig\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/mediation\/KempaAdNetwork.swift",
+      "kind": "StringLiteral",
+      "offset": 268,
+      "length": 10,
+      "value": "\"adVendor\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/mediation\/KempaAdNetwork.swift",
+      "kind": "StringLiteral",
+      "offset": 302,
+      "length": 14,
+      "value": "\"kempaAdUnits\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/mediation\/KempaAdNetwork.swift",
+      "kind": "StringLiteral",
+      "offset": 268,
+      "length": 10,
+      "value": "\"adVendor\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/mediation\/KempaAdNetwork.swift",
+      "kind": "StringLiteral",
+      "offset": 302,
+      "length": 14,
+      "value": "\"kempaAdUnits\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/mediation\/AdVendor.swift",
+      "kind": "StringLiteral",
+      "offset": 149,
+      "length": 10,
+      "value": "\"FACEBOOK\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/mediation\/AdVendor.swift",
+      "kind": "StringLiteral",
+      "offset": 191,
+      "length": 8,
+      "value": "\"GOOGLE\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/mediation\/PlacementOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 246,
+      "length": 8,
+      "value": "\"reward\""
+    }
+  ]
+}
