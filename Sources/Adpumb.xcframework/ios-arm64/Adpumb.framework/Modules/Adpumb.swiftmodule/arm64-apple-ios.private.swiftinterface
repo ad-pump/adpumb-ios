@@ -14,12 +14,10 @@ import _StringProcessing
 public class AdDisplayManager {
   public init()
   public static func getInstance() -> Adpumb.AdDisplayManager
-  public func updateContext(viewController: UIKit.UIViewController?)
   public func showAd(viewController: UIKit.UIViewController, adCompletionHandler: Adpumb.AdPumbDelegate?, placementOptions: Adpumb.PlacementOptions)
   public func showPendingAd()
   public func initializeAdapter()
-  public static func updatePresenter(viewController: UIKit.UIViewController?)
-  public static func getPresenter() -> UIKit.UIViewController
+  public static func getPresenter() -> UIKit.UIViewController?
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class AdPumbBooter {
