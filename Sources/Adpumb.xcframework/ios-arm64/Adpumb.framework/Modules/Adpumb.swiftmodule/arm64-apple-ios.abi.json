@@ -976,14 +976,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:6Adpumb13KempaAdConfigC013enablePendingC0Sbvp",
-            "mangledName": "$s6Adpumb13KempaAdConfigC013enablePendingC0Sbvp",
+            "usr": "s:6Adpumb13KempaAdConfigC013enablePendingC0SbSgvp",
+            "mangledName": "$s6Adpumb13KempaAdConfigC013enablePendingC0SbSgvp",
             "moduleName": "Adpumb",
             "declAttributes": [
               "HasInitialValue",
@@ -999,14 +1007,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6Adpumb13KempaAdConfigC013enablePendingC0Sbvg",
-                "mangledName": "$s6Adpumb13KempaAdConfigC013enablePendingC0Sbvg",
+                "usr": "s:6Adpumb13KempaAdConfigC013enablePendingC0SbSgvg",
+                "mangledName": "$s6Adpumb13KempaAdConfigC013enablePendingC0SbSgvg",
                 "moduleName": "Adpumb",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1023,14 +1039,22 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6Adpumb13KempaAdConfigC013enablePendingC0Sbvs",
-                "mangledName": "$s6Adpumb13KempaAdConfigC013enablePendingC0Sbvs",
+                "usr": "s:6Adpumb13KempaAdConfigC013enablePendingC0SbSgvs",
+                "mangledName": "$s6Adpumb13KempaAdConfigC013enablePendingC0SbSgvs",
                 "moduleName": "Adpumb",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1047,8 +1071,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6Adpumb13KempaAdConfigC013enablePendingC0SbvM",
-                "mangledName": "$s6Adpumb13KempaAdConfigC013enablePendingC0SbvM",
+                "usr": "s:6Adpumb13KempaAdConfigC013enablePendingC0SbSgvM",
+                "mangledName": "$s6Adpumb13KempaAdConfigC013enablePendingC0SbSgvM",
                 "moduleName": "Adpumb",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2339,13 +2363,6 @@
       "offset": 223,
       "length": 2,
       "value": "60"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/mediation\/KempaAdConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 397,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/KempaInterstitialAd.swift",

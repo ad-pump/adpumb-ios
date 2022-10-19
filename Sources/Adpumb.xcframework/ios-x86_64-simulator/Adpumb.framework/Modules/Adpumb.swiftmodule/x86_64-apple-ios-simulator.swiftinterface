@@ -38,7 +38,7 @@ public class KempaAdConfig : Swift.Codable {
   public var disabledPlacements: [Swift.String]
   public var adNetworks: [Adpumb.KempaAdNetwork]
   public var version: Swift.String
-  public var enablePendingAd: Swift.Bool
+  public var enablePendingAd: Swift.Bool?
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
