@@ -976,6 +976,92 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "enablePendingAd",
+            "printedName": "enablePendingAd",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Adpumb13KempaAdConfigC013enablePendingC0Sbvp",
+            "mangledName": "$s6Adpumb13KempaAdConfigC013enablePendingC0Sbvp",
+            "moduleName": "Adpumb",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Adpumb13KempaAdConfigC013enablePendingC0Sbvg",
+                "mangledName": "$s6Adpumb13KempaAdConfigC013enablePendingC0Sbvg",
+                "moduleName": "Adpumb",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Adpumb13KempaAdConfigC013enablePendingC0Sbvs",
+                "mangledName": "$s6Adpumb13KempaAdConfigC013enablePendingC0Sbvs",
+                "moduleName": "Adpumb",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Adpumb13KempaAdConfigC013enablePendingC0SbvM",
+                "mangledName": "$s6Adpumb13KempaAdConfigC013enablePendingC0SbvM",
+                "moduleName": "Adpumb",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -2259,6 +2345,13 @@
       "offset": 223,
       "length": 2,
       "value": "60"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/mediation\/KempaAdConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 397,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/KempaInterstitialAd.swift",
