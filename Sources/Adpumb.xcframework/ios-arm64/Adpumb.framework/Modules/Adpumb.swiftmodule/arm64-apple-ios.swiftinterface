@@ -14,7 +14,7 @@ import _StringProcessing
 public class AdDisplayManager {
   public init()
   public static func getInstance() -> Adpumb.AdDisplayManager
-  public func showAd(viewController: UIKit.UIViewController, adCompletionHandler: Adpumb.AdPumbDelegate?, placementOptions: Adpumb.PlacementOptions)
+  public func showAd(adCompletionHandler: Adpumb.AdPumbDelegate?, placementOptions: Adpumb.PlacementOptions)
   public func showPendingAd()
   public func initializeAdapter()
   public static func getPresenter() -> UIKit.UIViewController?

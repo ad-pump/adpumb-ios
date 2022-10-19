@@ -111,18 +111,12 @@
           {
             "kind": "Function",
             "name": "showAd",
-            "printedName": "showAd(viewController:adCompletionHandler:placementOptions:)",
+            "printedName": "showAd(adCompletionHandler:placementOptions:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
               },
               {
                 "kind": "TypeNominal",
@@ -146,8 +140,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6Adpumb16AdDisplayManagerC04showB014viewController19adCompletionHandler16placementOptionsySo06UIViewG0C_AA0B12PumbDelegate_pSgAA09PlacementL0CtF",
-            "mangledName": "$s6Adpumb16AdDisplayManagerC04showB014viewController19adCompletionHandler16placementOptionsySo06UIViewG0C_AA0B12PumbDelegate_pSgAA09PlacementL0CtF",
+            "usr": "s:6Adpumb16AdDisplayManagerC04showB019adCompletionHandler16placementOptionsyAA0B12PumbDelegate_pSg_AA09PlacementJ0CtF",
+            "mangledName": "$s6Adpumb16AdDisplayManagerC04showB019adCompletionHandler16placementOptionsyAA0B12PumbDelegate_pSg_AA09PlacementJ0CtF",
             "moduleName": "Adpumb",
             "declAttributes": [
               "AccessControl"
