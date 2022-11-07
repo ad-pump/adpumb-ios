@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
 // swift-module-flags: -target x86_64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Adpumb
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AdSupport
@@ -14,10 +14,12 @@ import _StringProcessing
 public class AdDisplayManager {
   public init()
   public static func getInstance() -> Adpumb.AdDisplayManager
-  public func showAd(adCompletionHandler: Adpumb.AdPumbDelegate?, placementOptions: Adpumb.PlacementOptions)
+  public func updateContext(viewController: UIKit.UIViewController?)
+  public func showAd(viewController: UIKit.UIViewController, adCompletionHandler: Adpumb.AdPumbDelegate?, placementOptions: Adpumb.PlacementOptions)
   public func showPendingAd()
   public func initializeAdapter()
-  public static func getPresenter() -> UIKit.UIViewController?
+  public static func updatePresenter(viewController: UIKit.UIViewController?)
+  public static func getPresenter() -> UIKit.UIViewController
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class AdPumbBooter {
@@ -38,7 +40,6 @@ public class KempaAdConfig : Swift.Codable {
   public var disabledPlacements: [Swift.String]
   public var adNetworks: [Adpumb.KempaAdNetwork]
   public var version: Swift.String
-  public var enablePendingAd: Swift.Bool?
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws

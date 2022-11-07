@@ -110,13 +110,53 @@
           },
           {
             "kind": "Function",
-            "name": "showAd",
-            "printedName": "showAd(adCompletionHandler:placementOptions:)",
+            "name": "updateContext",
+            "printedName": "updateContext(viewController:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Adpumb16AdDisplayManagerC13updateContext14viewControllerySo06UIViewH0CSg_tF",
+            "mangledName": "$s6Adpumb16AdDisplayManagerC13updateContext14viewControllerySo06UIViewH0CSg_tF",
+            "moduleName": "Adpumb",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showAd",
+            "printedName": "showAd(viewController:adCompletionHandler:placementOptions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
               },
               {
                 "kind": "TypeNominal",
@@ -140,8 +180,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6Adpumb16AdDisplayManagerC04showB019adCompletionHandler16placementOptionsyAA0B12PumbDelegate_pSg_AA09PlacementJ0CtF",
-            "mangledName": "$s6Adpumb16AdDisplayManagerC04showB019adCompletionHandler16placementOptionsyAA0B12PumbDelegate_pSg_AA09PlacementJ0CtF",
+            "usr": "s:6Adpumb16AdDisplayManagerC04showB014viewController19adCompletionHandler16placementOptionsySo06UIViewG0C_AA0B12PumbDelegate_pSgAA09PlacementL0CtF",
+            "mangledName": "$s6Adpumb16AdDisplayManagerC04showB014viewController19adCompletionHandler16placementOptionsySo06UIViewG0C_AA0B12PumbDelegate_pSgAA09PlacementL0CtF",
             "moduleName": "Adpumb",
             "declAttributes": [
               "AccessControl"
@@ -190,9 +230,14 @@
           },
           {
             "kind": "Function",
-            "name": "getPresenter",
-            "printedName": "getPresenter()",
+            "name": "updatePresenter",
+            "printedName": "updatePresenter(viewController:)",
             "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
@@ -209,8 +254,31 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6Adpumb16AdDisplayManagerC12getPresenterSo16UIViewControllerCSgyFZ",
-            "mangledName": "$s6Adpumb16AdDisplayManagerC12getPresenterSo16UIViewControllerCSgyFZ",
+            "usr": "s:6Adpumb16AdDisplayManagerC15updatePresenter14viewControllerySo06UIViewH0CSg_tFZ",
+            "mangledName": "$s6Adpumb16AdDisplayManagerC15updatePresenter14viewControllerySo06UIViewH0CSg_tFZ",
+            "moduleName": "Adpumb",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPresenter",
+            "printedName": "getPresenter()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Adpumb16AdDisplayManagerC12getPresenterSo16UIViewControllerCyFZ",
+            "mangledName": "$s6Adpumb16AdDisplayManagerC12getPresenterSo16UIViewControllerCyFZ",
             "moduleName": "Adpumb",
             "static": true,
             "declAttributes": [
@@ -970,116 +1038,6 @@
             ]
           },
           {
-            "kind": "Var",
-            "name": "enablePendingAd",
-            "printedName": "enablePendingAd",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6Adpumb13KempaAdConfigC013enablePendingC0SbSgvp",
-            "mangledName": "$s6Adpumb13KempaAdConfigC013enablePendingC0SbSgvp",
-            "moduleName": "Adpumb",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Bool?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6Adpumb13KempaAdConfigC013enablePendingC0SbSgvg",
-                "mangledName": "$s6Adpumb13KempaAdConfigC013enablePendingC0SbSgvg",
-                "moduleName": "Adpumb",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Bool?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6Adpumb13KempaAdConfigC013enablePendingC0SbSgvs",
-                "mangledName": "$s6Adpumb13KempaAdConfigC013enablePendingC0SbSgvs",
-                "moduleName": "Adpumb",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6Adpumb13KempaAdConfigC013enablePendingC0SbSgvM",
-                "mangledName": "$s6Adpumb13KempaAdConfigC013enablePendingC0SbSgvM",
-                "moduleName": "Adpumb",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -1318,6 +1276,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Adpumb",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Adpumb"
       },
       {
         "kind": "Import",
@@ -1857,23 +1832,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Adpumb",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Adpumb"
       },
       {
         "kind": "Import",
