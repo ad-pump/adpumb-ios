@@ -2255,14 +2255,14 @@
     {
       "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/GoogleInterstitialAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 362,
+      "offset": 322,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/GoogleInterstitialAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 398,
+      "offset": 358,
       "length": 5,
       "value": "false"
     },
