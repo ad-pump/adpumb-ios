@@ -1252,13 +1252,6 @@
       },
       {
         "kind": "Import",
-        "name": "GoogleMobileAds",
-        "printedName": "GoogleMobileAds",
-        "declKind": "Import",
-        "moduleName": "Adpumb"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -2339,35 +2332,35 @@
     {
       "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ConfigManager.swift",
       "kind": "StringLiteral",
-      "offset": 206,
+      "offset": 208,
       "length": 5,
       "value": "\"AWS\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ConfigManager.swift",
       "kind": "StringLiteral",
-      "offset": 248,
+      "offset": 250,
       "length": 5,
       "value": "\"GFB\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ConfigManager.swift",
       "kind": "StringLiteral",
-      "offset": 301,
+      "offset": 303,
       "length": 15,
       "value": "\"AdPumbConfigs\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ConfigManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 410,
+      "offset": 412,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/AdPumbIOS\/adpumb-ios-framework\/Adpumb\/ads\/ConfigManager.swift",
       "kind": "StringLiteral",
-      "offset": 439,
+      "offset": 441,
       "length": 2,
       "value": "\"\""
     },
