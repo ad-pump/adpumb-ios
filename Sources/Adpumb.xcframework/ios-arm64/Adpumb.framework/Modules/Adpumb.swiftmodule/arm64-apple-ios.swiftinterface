@@ -14,12 +14,10 @@ import _StringProcessing
 public class AdDisplayManager {
   public init()
   public static func getInstance() -> Adpumb.AdDisplayManager
-  public func updateContext(viewController: UIKit.UIViewController?)
-  public func showAd(viewController: UIKit.UIViewController, adCompletionHandler: Adpumb.AdPumbDelegate?, placementOptions: Adpumb.PlacementOptions)
+  public func showAd(adCompletionHandler: Adpumb.AdPumbDelegate?, placementOptions: Adpumb.PlacementOptions)
   public func showPendingAd()
   public func initializeAdapter()
-  public static func updatePresenter(viewController: UIKit.UIViewController?)
-  public static func getPresenter() -> UIKit.UIViewController
+  public static func getPresenter() -> UIKit.UIViewController?
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class AdPumbBooter {
@@ -40,6 +38,7 @@ public class KempaAdConfig : Swift.Codable {
   public var disabledPlacements: [Swift.String]
   public var adNetworks: [Adpumb.KempaAdNetwork]
   public var version: Swift.String
+  public var enablePendingAd: Swift.Bool?
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
