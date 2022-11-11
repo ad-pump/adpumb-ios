@@ -971,8 +971,8 @@
           },
           {
             "kind": "Var",
-            "name": "enablePendingAd",
-            "printedName": "enablePendingAd",
+            "name": "activateFullscreenPendingAd",
+            "printedName": "activateFullscreenPendingAd",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -990,8 +990,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:6Adpumb13KempaAdConfigC013enablePendingC0SbSgvp",
-            "mangledName": "$s6Adpumb13KempaAdConfigC013enablePendingC0SbSgvp",
+            "usr": "s:6Adpumb13KempaAdConfigC025activateFullscreenPendingC0SbSgvp",
+            "mangledName": "$s6Adpumb13KempaAdConfigC025activateFullscreenPendingC0SbSgvp",
             "moduleName": "Adpumb",
             "declAttributes": [
               "HasInitialValue",
@@ -1021,8 +1021,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6Adpumb13KempaAdConfigC013enablePendingC0SbSgvg",
-                "mangledName": "$s6Adpumb13KempaAdConfigC013enablePendingC0SbSgvg",
+                "usr": "s:6Adpumb13KempaAdConfigC025activateFullscreenPendingC0SbSgvg",
+                "mangledName": "$s6Adpumb13KempaAdConfigC025activateFullscreenPendingC0SbSgvg",
                 "moduleName": "Adpumb",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1053,8 +1053,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6Adpumb13KempaAdConfigC013enablePendingC0SbSgvs",
-                "mangledName": "$s6Adpumb13KempaAdConfigC013enablePendingC0SbSgvs",
+                "usr": "s:6Adpumb13KempaAdConfigC025activateFullscreenPendingC0SbSgvs",
+                "mangledName": "$s6Adpumb13KempaAdConfigC025activateFullscreenPendingC0SbSgvs",
                 "moduleName": "Adpumb",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1071,8 +1071,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6Adpumb13KempaAdConfigC013enablePendingC0SbSgvM",
-                "mangledName": "$s6Adpumb13KempaAdConfigC013enablePendingC0SbSgvM",
+                "usr": "s:6Adpumb13KempaAdConfigC025activateFullscreenPendingC0SbSgvM",
+                "mangledName": "$s6Adpumb13KempaAdConfigC025activateFullscreenPendingC0SbSgvM",
                 "moduleName": "Adpumb",
                 "implicit": true,
                 "accessorKind": "_modify"
