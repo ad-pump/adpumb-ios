@@ -2,6 +2,8 @@
 
 version 2.0.0
 
+Change Log:
+
 - Google Mobile Ads SDK Migration
 - Removed public methods:
   - AdDisplayManager.updatePresenter()
